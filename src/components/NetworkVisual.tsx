@@ -16,21 +16,21 @@ const NetworkVisual: React.FC = () => {
             </p>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
-                <div className="h-6 w-6 rounded-full bg-polkadot-pink mt-1"></div>
+                <div className="h-6 w-6 rounded-full bg-AFJPCripto-pink mt-1"></div>
                 <div>
                   <h3 className="font-bold">{t('network.retirement-parachain')}</h3>
                   <p className="text-foreground/70">{t('network.retirement-desc')}</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className="h-6 w-6 rounded-full bg-polkadot-purple mt-1"></div>
+                <div className="h-6 w-6 rounded-full bg-AFJPCripto-purple mt-1"></div>
                 <div>
                   <h3 className="font-bold">{t('network.assets-parachain')}</h3>
                   <p className="text-foreground/70">{t('network.assets-desc')}</p>
                 </div>
               </div>
               <div className="flex items-start gap-3">
-                <div className="h-6 w-6 rounded-full bg-polkadot-cyan mt-1"></div>
+                <div className="h-6 w-6 rounded-full bg-AFJPCripto-cyan mt-1"></div>
                 <div>
                   <h3 className="font-bold">{t('network.benefits-parachain')}</h3>
                   <p className="text-foreground/70">{t('network.benefits-desc')}</p>
@@ -40,20 +40,20 @@ const NetworkVisual: React.FC = () => {
           </div>
           
           <div className="relative">
-            <div className="absolute inset-0 bg-polkadot-gradient opacity-5 rounded-full filter blur-3xl"></div>
+            <div className="absolute inset-0 bg-AFJPCripto-gradient opacity-5 rounded-full filter blur-3xl"></div>
             <div className="relative p-8">
-              <div className="w-32 h-32 bg-polkadot-gradient rounded-full mx-auto flex items-center justify-center text-white font-bold shadow-lg animate-float">
+              <div className="w-32 h-32 bg-AFJPCripto-gradient rounded-full mx-auto flex items-center justify-center text-white font-bold shadow-lg animate-float">
                 Relay Chain
               </div>
               
               <div className="flex flex-wrap justify-center gap-8 mt-12">
-                <div className="w-24 h-24 bg-polkadot-pink rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg animate-pulse-slow">
+                <div className="w-24 h-24 bg-AFJPCripto-pink rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg animate-pulse-slow">
                   Jubilación
                 </div>
-                <div className="w-24 h-24 bg-polkadot-purple rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg animate-pulse-slow" style={{ animationDelay: "0.5s" }}>
+                <div className="w-24 h-24 bg-AFJPCripto-purple rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg animate-pulse-slow" style={{ animationDelay: "0.5s" }}>
                   Activos
                 </div>
-                <div className="w-24 h-24 bg-polkadot-cyan rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg animate-pulse-slow" style={{ animationDelay: "1s" }}>
+                <div className="w-24 h-24 bg-AFJPCripto-cyan rounded-full flex items-center justify-center text-white font-bold text-sm shadow-lg animate-pulse-slow" style={{ animationDelay: "1s" }}>
                   Beneficios
                 </div>
               </div>

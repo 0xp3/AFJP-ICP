@@ -4,40 +4,40 @@ import { LayoutGrid, Link, Shield, GitBranch, TrendingUp } from 'lucide-react';
 import FeatureCard from './FeatureCard';
 import { useLanguage } from '@/contexts/LanguageContext';
 
-const WhyPolkadot: React.FC = () => {
+const WhyICP: React.FC = () => {
   const { t } = useLanguage();
   
   const features = [
     {
-      title: t('why-polkadot.interoperability'),
-      description: t('why-polkadot.interoperability-desc'),
+      title: t('why-icp.interoperability'),
+      description: t('why-icp.interoperability-desc'),
       icon: <Link size={32} />
     },
     {
-      title: t('why-polkadot.scalability'),
-      description: t('why-polkadot.scalability-desc'),
+      title: t('why-icp.scalability'),
+      description: t('why-icp.scalability-desc'),
       icon: <TrendingUp size={32} />
     },
     {
-      title: t('why-polkadot.security'),
-      description: t('why-polkadot.security-desc'),
+      title: t('why-icp.security'),
+      description: t('why-icp.security-desc'),
       icon: <Shield size={32} />
     },
     {
-      title: t('why-polkadot.governance'),
-      description: t('why-polkadot.governance-desc'),
+      title: t('why-icp.governance'),
+      description: t('why-icp.governance-desc'),
       icon: <GitBranch size={32} />
     }
   ];
   
   return (
     <section id="por-que" className="py-20 relative">
-      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-polkadot-cyan/5 rounded-full filter blur-3xl"></div>
+      <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-AFJPCripto-cyan/5 rounded-full filter blur-3xl"></div>
       <div className="container">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4"><span className="text-gradient">{t('why-polkadot.title')}</span></h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4"><span className="text-gradient">{t('why-icp.title')}</span></h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            {t('why-polkadot.subtitle')}
+            {t('why-icp.subtitle')}
           </p>
         </div>
         
@@ -57,4 +57,4 @@ const WhyPolkadot: React.FC = () => {
   );
 };
 
-export default WhyPolkadot;
+export default WhyICP;

@@ -40,7 +40,7 @@ const PitchSection: React.FC = () => {
 
   return (
     <section id="presentacion" className="py-20 relative">
-      <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-polkadot-pink/5 rounded-full filter blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-AFJPCripto-pink/5 rounded-full filter blur-3xl"></div>
       <div className="container">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">{t('pitch.title').replace('Hackathon', '')} <span className="text-gradient">Hackathon</span></h2>
@@ -53,7 +53,7 @@ const PitchSection: React.FC = () => {
           {pitches.map((pitch, index) => (
             <div key={index} className="mb-8">
               <Card className="glass-card p-6 border-border/50 hover:border-primary/50 transition-all">
-                <div className="text-polkadot-pink mb-4">
+                <div className="text-AFJPCripto-pink mb-4">
                   <Quote size={24} />
                 </div>
                 <p className="italic text-lg">{pitch.text}</p>
@@ -79,7 +79,7 @@ const PitchSection: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             {businessHighlights.map((highlight, index) => (
               <Card key={index} className="glass-card p-6 border-border/50 hover:border-primary/50 transition-all">
-                <div className="text-polkadot-cyan mb-4">
+                <div className="text-AFJPCripto-cyan mb-4">
                   {highlight.icon}
                 </div>
                 <h4 className="font-bold text-lg mb-3">{highlight.title}</h4>
@@ -88,7 +88,7 @@ const PitchSection: React.FC = () => {
             ))}
           </div>
 
-          <Card className="glass-card p-8 border-border/50 bg-gradient-to-br from-polkadot-pink/5 to-polkadot-purple/5">
+          <Card className="glass-card p-8 border-border/50 bg-gradient-to-br from-AFJPCripto-pink/5 to-AFJPCripto-purple/5">
             <div className="text-center">
               <h4 className="text-xl font-bold mb-4">{t('pitch.execution-title')}</h4>
               <p className="text-lg text-foreground/80">{t('pitch.execution-text')}</p>
